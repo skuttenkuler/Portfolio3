@@ -1,0 +1,23 @@
+{
+  "name": "Portfolio3",
+  "version": "1.0.0",
+  "description": "Dynamic Portfolio for Berkely Bootcamp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skuttenkuler/Portfolio3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "bugs": {
+    "url": "https://github.com/skuttenkuler/Portfolio3/issues"
+  },
+  "homepage": "https://github.com/skuttenkuler/Portfolio3#readme"
+}
