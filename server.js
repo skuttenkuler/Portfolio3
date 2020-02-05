@@ -1,10 +1,8 @@
 //install packages
 const express = require('express');
-const nodemailer = require('nodemailer');
 const bodyParser = require('body-parser');
 
 
-//email
 
 //set PORT
 const PORT = process.env.PORT || 3000;

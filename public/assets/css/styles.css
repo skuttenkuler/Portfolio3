@@ -141,7 +141,7 @@ menu-links:nth-child(2):hover ~ .line {
     position: absolute;
     margin: auto;
     width: 100%;
-    height: 900px;
+    height: 780px;
     background-image: url('../img/cosmos-dark.jpg');
     display: table;
     top: 0;
@@ -188,7 +188,7 @@ menu-links:nth-child(2):hover ~ .line {
 
 
 #workSection{
-    height: 900px;
+    height: 950px;
     background-image: url('../img/sun.jpg');
     background-size: cover;
 
@@ -408,12 +408,12 @@ menu-links:nth-child(2):hover ~ .line {
 #contactSection {
     background-image: url('../img/bridge.png');
     background-size: cover;
-    height: 700px;
+    height: 900px;
 }
 
 
 .contact-left{
-    padding-top: 100px;
+    padding-top: 150px;
     padding-left: 50px;
 
 
@@ -437,6 +437,10 @@ menu-links:nth-child(2):hover ~ .line {
     padding-top: 100px;
 
 }
+.contact-right{
+    margin-top:250px;
+}
+
 .contact-right h4{
     font-family: 'Inknut Antiqua', serif;
     color: whitesmoke;
