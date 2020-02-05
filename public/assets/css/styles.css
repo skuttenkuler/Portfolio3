@@ -226,7 +226,7 @@ menu-links:nth-child(2):hover ~ .line {
     display: flex;
     position: absolute;
     vertical-align: center;
-	margin: 300px 0 0 0;
+	margin: 150px 0 0 0;
 	padding: 0;
 	list-style: none;
 	
@@ -250,6 +250,35 @@ menu-links:nth-child(2):hover ~ .line {
 	display: inline-block;
 	margin: 10px;
 }
+.work-grid2 {
+    display: flex;
+    position: absolute;
+
+	margin: 450px 0 0 200px;
+    
+	padding: 0;
+	list-style: none;
+	text-align: center;
+	width: 100%;
+}
+
+.work-grid2:after {
+	clear: both;
+}
+
+.work-grid2:after,
+.work-box:before {
+	content: '';
+    display: table;
+}
+
+.work-grid2 li {
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	margin: 10px;
+}
+
 
 .work-box {
 	width: 100%;
@@ -285,8 +314,10 @@ menu-links:nth-child(2):hover ~ .line {
       rgba(0, 0, 0, 0.50),
       rgba(0, 0, 0, 0.10)
     ),
+    
     /* bottom, image */
-    url(../img/49cbaf3b-8b47-44d2-afec-c6a7aabddf3c.png);
+    url(../img/49cbaf3b-8b47-44d2-afec-c6a7aabddf3c.png) no-repeat;
+   background-position: center;
 }
 
 .work-img-3 {
@@ -308,6 +339,25 @@ menu-links:nth-child(2):hover ~ .line {
        /* bottom, image */
        url(../img/StarSocial.png);
 }
+.work-img-5 {
+    background:
+       linear-gradient(
+         rgba(0, 0, 0, 0.50),
+         rgba(0, 0, 0, 0.10)
+       ),
+       /* bottom, image */
+       url(../img/Simpsons.png);
+}
+.work-img-6 {
+    background:
+       linear-gradient(
+         rgba(0, 0, 0, 0.50),
+         rgba(0, 0, 0, 0.10)
+       ),
+       /* bottom, image */
+       url(../img/screen.png);
+       padding-top: 50px;
+}
 
 
 
@@ -317,6 +367,7 @@ menu-links:nth-child(2):hover ~ .line {
 	width: inherit;
 	height: inherit;
 }
+
 .header h1 {
     font-family: 'Caveat Brush', cursive;
     font-weight: 400;
